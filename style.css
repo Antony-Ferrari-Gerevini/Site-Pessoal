@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #000000;
+}
+.container-home, .barra-superior, .conteudo, .barra-inferior {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*.home {
+    background: #161b3d;
+}
+.container-home {
+    padding: 150px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    isolation: isolate;
+}
+.h1-home {
+    margin-left: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.foto-home {
+    width: 500px;
+    border-radius: 5%;
+}*/
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    background: #181e49;
+}
+.barra-superior {
+    height: 150px;
+}
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.foto-pessoal {
+    display: inline-block;
+    border: white solid 5px;
+    border-radius: 100%;
+    width: 185px;
+}
+.bloco-contato {
+    width: 150px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.logo-contato {
+    width: 20px;
+    margin-top: 2px;
+}
+.link-contato {
+    text-align: left;
+}
+.nav-bar {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+div[id] {
+    scroll-margin-top: 200px;
+}
+
+
+
+.conteudo {
+    border: white solid 1px;
+}
+.container-espacamento-1, .container-espacamento-2 {
+    padding: 75px 0;
+}
+.container-espacamento-1 {
+    background: #262629;
+}
+.container-espacamento-2 {
+    background: #2b2b2e;
+}
+.container-resumo, .container-habilidades, .container-formacao, .container-projetos {
+    padding: 25px 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-habilidades {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 30px;
+}
+.img-habilidade {
+    background: whitesmoke;
+    width: 150px;
+    max-height: 150px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+
+
+footer {
+    background: #181e49;
+    height: 75px;
+}
+
+p, a {
+    font-family: "Bahnschrift";
+    margin: 8px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+a {
+    font-size: 18px;
+}
+a:hover {
+    color: #91e5ff;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+h1, h2, h3 {
+    color: whitesmoke;
+    font-family: "Bahnschrift";
+}
+h1 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 50px;
+    font-size: 35px;
+}
+h2 {
+    color: #91e5ff;
+    font-size: 27.5px;
+    padding: 15px 0;
+    text-align: center;
+}
+h3 {
+    font-size: 22.5px;
+}
+hr {
+    border: white solid 1px;
+}
+.main-hr {
+    border: white solid 3px;
+}
+.footer-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("fonts/BAHNSCHRIFT.TTF");
+}
+
+@font-face {
+    font-family: "Candara";
+    src: url("fonts/Candara.ttf");
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url("fonts/calibri.ttf");
+}
